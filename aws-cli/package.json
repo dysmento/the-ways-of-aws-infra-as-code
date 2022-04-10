@@ -1,0 +1,11 @@
+{
+    "dependencies": {
+        "got": "^12.0.3",
+        "nbb": "^0.3.4"
+  },
+    "scripts": {
+        "build": "zip -r app.zip .",
+        "deploy": "aws lambda update-function-code --function-name cli-lambda-demo --publish --zip-file fileb://app.zip",
+        "provision": "sh provision.sh"
+  }
+}
