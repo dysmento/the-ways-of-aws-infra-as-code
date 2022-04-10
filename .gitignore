@@ -1,3 +1,5 @@
 node_modules
 .clj-kondo
 .lsp
+.terraform
+.serverless
