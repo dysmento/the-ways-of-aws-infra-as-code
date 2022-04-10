@@ -3,3 +3,5 @@ node_modules
 .lsp
 .terraform
 .serverless
+terraform/terraform.tfstate
+terraform/terraform.tfstate.backup

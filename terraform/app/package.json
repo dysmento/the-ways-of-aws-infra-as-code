@@ -1,0 +1,9 @@
+{
+    "dependencies": {
+        "got": "^12.0.3",
+        "nbb": "^0.3.4"
+    },
+    "scripts": {
+        "deploy": "terraform -chdir='..' apply"
+    }
+}
